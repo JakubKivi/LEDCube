@@ -19,6 +19,24 @@ PCF8574 expander6;
 PCF8574 expander7;
 PCF8574 expander8;
 
+void error(uint8_t nr, bool stop){
+    if(!stop){
+      for(int i=0; i<2*nr; i++){
+        builtLED_TOG;
+        delay(500);
+      }
+    }else{
+      while(true){
+        for(int i=0; i<2*nr; i++){
+          builtLED_TOG;
+          delay(500);
+        }
+        delay(3000);
+      }
+    }
+}
+
+
 void initMain(){
 
   pinMode(8, OUTPUT);

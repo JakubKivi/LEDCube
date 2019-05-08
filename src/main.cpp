@@ -5,7 +5,6 @@ initMain();
 }
 
 void loop() {
-builtLED_TOG;
-delay(100);
+error(10, 1);
   // put your main code here, to run repeatedly:
 }
