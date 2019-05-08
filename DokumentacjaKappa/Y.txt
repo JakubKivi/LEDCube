@@ -1,0 +1,9 @@
+Y coordinate          -> Pin arduino -> Atmega port
+1			                ->	0          -> PD0
+2                			->	1          -> PD1
+3		                 	->	2          -> PD2
+4	                		->	3          -> PD3
+5	                		->	A0(14)     -> PC0
+6	                		->	A1(15)     -> PC1
+7	                		->	A2(16)     -> PC2
+8	                		->	A3(17)     -> PC3

@@ -1,9 +1,9 @@
-Numer w ukladzie wsp    ->  Pin arduino
-1			->	12
-2			->	11
-3			->	10
-4			->	9
-5			->	8
-6			->	7
-7			->	6
-8			->	5
+I2C adress -> Z coordinate
+  0x3C     -> 1
+  0x3A     -> 2
+  0x39     -> 3
+  0x38     -> 4
+  0x3E     -> 5
+  0x3D     -> 6
+  0x3B     -> 7
+  0x3F     -> 8
