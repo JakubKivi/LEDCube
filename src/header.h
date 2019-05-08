@@ -1,12 +1,7 @@
 #include <Arduino.h>
 #include "../lib/Wire/Wire.h"    // Required for I2C communication
 #include "../lib/PCF8574/PCF8574.h" // Required for PCF8574
-#include "functions.h"
-
-#define builtLED 	(1<<PB0)
-#define builtLED_ON	PORTB |= builtLED
-#define builtLED_OFF	PORTB &= ~builtLED
-#define builtLED_TOG	PORTB ^= builtLED
+#include "define.h"
 
 bool led[8][8][8];
 
@@ -18,6 +13,8 @@ PCF8574 expander5;
 PCF8574 expander6;
 PCF8574 expander7;
 PCF8574 expander8;
+
+#include "functions.h"
 
 void error(uint8_t nr, bool stop){
     if(!stop){
