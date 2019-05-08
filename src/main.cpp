@@ -1,15 +1,11 @@
-#include <Arduino.h>
+#include "header.h"
 
 void setup() {
-  // put your setup code here, to run once:
-  pinMode(8, OUTPUT);
-
+initMain();
 }
 
 void loop() {
-digitalWrite(8, 1);
-delay(1000);
-digitalWrite(8, 0);
-delay(1000);
+builtLED_TOG;
+delay(100);
   // put your main code here, to run repeatedly:
 }
