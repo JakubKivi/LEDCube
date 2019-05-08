@@ -1,0 +1,9 @@
+Numer w ukladzie wsp    ->  Pin arduino
+1			->	12
+2			->	11
+3			->	10
+4			->	9
+5			->	8
+6			->	7
+7			->	6
+8			->	5
